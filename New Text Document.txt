@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafiqur Rahman | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0b1120',
+                        accent: '#38bdf8'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-dark text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-slate-950/90 backdrop-blur-lg z-50">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <h1 class="text-xl font-bold">
+                Shafiqur<span class="text-accent">.</span>
+            </h1>
+
+            <div class="hidden md:flex gap-8 text-sm text-gray-300">
+                <a href="#home" class="hover:text-accent">Home</a>
+                <a href="#about" class="hover:text-accent">About</a>
+                <a href="#skills" class="hover:text-accent">Skills</a>
+                <a href="#experience" class="hover:text-accent">Experience</a>
+                <a href="#projects" class="hover:text-accent">Projects</a>
+                <a href="#contact" class="hover:text-accent">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="min-h-screen flex items-center px-6 pt-24">
+        <div class="max-w-6xl mx-auto w-full">
+            <p class="text-accent font-semibold mb-4">
+                HELLO, I'M
+            </p>
+
+            <h1 class="text-5xl md:text-7xl font-bold leading-tight">
+                Shafiqur Rahman
+            </h1>
+
+            <h2 class="text-2xl md:text-3xl text-gray-400 mt-5">
+                Audit Professional & 
+                <span class="text-accent">Software Enthusiast</span>
+            </h2>
+
+            <p class="text-gray-400 max-w-2xl mt-6 leading-8">
+                Combining professional audit experience with
+                technology and programming skills to develop
+                efficient, practical and innovative solutions.
+            </p>
+
+            <div class="flex flex-wrap gap-4 mt-10">
+                <a href="#projects"
+                   class="bg-accent text-slate-950 px-7 py-3 rounded-lg font-semibold hover:bg-sky-300">
+                    Explore My Work
+                </a>
+
+                <a href="#contact"
+                   class="border border-gray-600 px-7 py-3 rounded-lg hover:border-accent">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-24 bg-slate-900 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">
+                About <span class="text-accent">Me</span>
+            </h2>
+
+            <p class="text-gray-400 leading-8 max-w-3xl">
+                I am Shafiqur Rahman, a professional working in
+                the audit and software field. I have experience
+                with Python, HTML, CSS and SQL.
+
+                I am interested in combining auditing knowledge
+                with technology to automate processes, analyze
+                data and create useful software solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12">
+                My <span class="text-accent">Skills</span>
+            </h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold text-accent">Python</h3>
+                    <p class="text-gray-400 mt-2 text-sm">Programming</p>
+                </div>
+
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold text-accent">HTML</h3>
+                    <p class="text-gray-400 mt-2 text-sm">Web Structure</p>
+                </div>
+
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold text-accent">CSS</h3>
+                    <p class="text-gray-400 mt-2 text-sm">Web Styling</p>
+                </div>
+
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold text-accent">SQL</h3>
+                    <p class="text-gray-400 mt-2 text-sm">Database</p>
+                </div>
+
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold text-accent">Tailwind</h3>
+                    <p class="text-gray-400 mt-2 text-sm">UI Design</p>
+                </div>
+
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold text-accent">Audit</h3>
+                    <p class="text-gray-400 mt-2 text-sm">Professional Skills</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-24 bg-slate-900 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">
+                Professional <span class="text-accent">Experience</span>
+            </h2>
+
+            <div class="border-l-2 border-accent pl-6">
+                <h3 class="text-xl font-bold">
+                    Audit & Software Professional
+                </h3>
+                <p class="text-gray-400 mt-3">
+                    Working in audit and software-related areas.
+                </p>
+                <p class="text-gray-500 text-sm mt-2">
+                    Add your company, designation and employment dates here.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12">
+                My <span class="text-accent">Projects</span>
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold">Audit Automation</h3>
+                    <p class="text-gray-400 mt-4 text-sm">
+                        Showcase your Python-based audit
+                        automation projects here.
+                    </p>
+                </div>
+
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold">Web Development</h3>
+                    <p class="text-gray-400 mt-4 text-sm">
+                        Showcase your HTML, CSS and
+                        Tailwind CSS projects here.
+                    </p>
+                </div>
+
+                <div class="bg-slate-900 p-7 rounded-xl border border-slate-800">
+                    <h3 class="text-xl font-bold">SQL & Data Analysis</h3>
+                    <p class="text-gray-400 mt-4 text-sm">
+                        Showcase your database and
+                        data analysis projects here.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 bg-slate-900 px-6 text-center">
+        <h2 class="text-3xl font-bold">
+            Let's <span class="text-accent">Connect</span>
+        </h2>
+
+        <p class="text-gray-400 mt-5">
+            Interested in working together? Feel free to contact me.
+        </p>
+
+        <a href="mailto:your-email@example.com"
+           class="inline-block bg-accent text-slate-950 px-8 py-3
+                  rounded-lg mt-8 font-semibold">
+            Send Me an Email
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-gray-500 text-sm">
+        © 2026 Shafiqur Rahman. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
